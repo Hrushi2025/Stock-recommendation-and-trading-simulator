@@ -8,3 +8,6 @@ conn = mysql.connector.connect(
     password='258925',
     database='stock_project'
 )
+
+if conn.is_connected():
+    print("Connection SucessFull")
